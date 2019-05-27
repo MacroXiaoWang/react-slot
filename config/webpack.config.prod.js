@@ -150,10 +150,6 @@ module.exports = {
                         loader: require.resolve('babel-loader'),
                         options: {
                             compact: true,
-                            plugins: ['transform-runtime', ['import', {
-                                libraryName: 'antd',
-                                style: 'css'
-                            }]],
                         },
                     },
                     // The notation here is somewhat confusing.

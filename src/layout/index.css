@@ -1,0 +1,40 @@
+
+.side-logo {
+    height: 32px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px;
+}
+
+.menu-header.ant-menu-horizontal > .ant-menu-submenu{
+    border-bottom: 2px solid transparent;
+}
+
+.menu-header .ant-menu-submenu.ant-menu-submenu-active {
+    border-bottom: 2px solid #FFF;
+    transition: border-bottom;
+}
+
+.trigger-header {
+    font-size: 18px;
+    line-height: 64px;
+    color: #fff;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger-header:hover {
+    color: #1890ff;
+}
+
+.self-layout-sider-left {
+    box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+}
+
+.self-layout-header {
+    display: flex;
+    padding: 0 50px 0 0;
+    box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+    align-items: center;
+    justify-content: space-between;
+}

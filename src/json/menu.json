@@ -1,10 +1,91 @@
-{
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+[
+  {
+    "key": "/home",
+    "icon": "mail",
+    "title": "首页",
+    "path": "/home"
   },
-  "exclude": [
-    "node_modules"
-  ]
-}
+  {
+    "key": "/Group1",
+    "icon": "mail",
+    "title": "UI",
+    "path": "/Group1",
+    "subItems": [
+      {
+        "key": "/home",
+        "title": "Option 1",
+        "path": "/home",
+        "icon": "mail"
+      },
+      {
+        "key": "1-2",
+        "title": "Option 2"
+      },
+      {
+        "key": "1-3",
+        "title": "Option 3"
+      },
+      {
+        "key": "1-4",
+        "title": "Option 4"
+      }
+    ]
+  },
+  {
+    "key": "/Group2",
+    "icon": "appstore",
+    "title": "Group2",
+    "path": "/Group2",
+    "subItems": [
+      {
+        "key": "2-1",
+        "title": "Option 4"
+      },
+      {
+        "key": "2-2",
+        "title": "Option 6"
+      },
+      {
+        "key": "2-3",
+        "title": "Option 7"
+      },
+      {
+        "key": "/SubItem",
+        "title": "Option 8",
+        "path": "/SubItem",
+        "subItems": [
+          {
+            "key": "2-4-1",
+            "title": "Option 9"
+          },
+          {
+            "key": "2-4-2",
+            "title": "Option 10"
+          },
+          {
+            "key": "2-4-3",
+            "title": "Option 11"
+          },
+          {
+            "key": "/contactUs",
+            "title": "Option 12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "/Group3",
+    "icon": "appstore",
+    "title": "Group3",
+    "path": "/Group3",
+    "subItems": [
+      {
+        "key": "/about",
+        "title": "Option 1",
+        "path": "/about",
+        "icon": "mail"
+      }
+    ]
+  }
+]

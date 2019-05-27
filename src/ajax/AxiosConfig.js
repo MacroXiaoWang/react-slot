@@ -1,6 +1,6 @@
 import axios from 'axios'
 import 'nprogress/nprogress.css'
-import "./progress/Progress.css"
+import "../assets/css/Progress.css"
 import NProgress from 'nprogress'
 
 axios.interceptors.request.use(config => {
@@ -26,7 +26,3 @@ axios.interceptors.response.use(response => {
     NProgress.done();
     return Promise.reject(error);
 });
-
-export default {
-    baseURl: "/server"
-}

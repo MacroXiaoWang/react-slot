@@ -1,0 +1,36 @@
+.login-form {
+    width: 320px;
+    padding:36px 36px 0;
+    background:#FFF;
+    color:#001529;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+    width: 100%;
+}
+.layout-login-container{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+}
+.system-title{
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.login-logo{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    color:#000;
+}
